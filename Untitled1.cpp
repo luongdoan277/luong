@@ -9,7 +9,7 @@ int main()
 	if ( (a<b+c) && (b<a+c) && (c<a+b) )
 		{
 			d=a+b+c;
-			e=sqrt((d/2)*(d-a)*(d-b)*(d-c));
+			e=sqrt((d/2)*(d/2-a)*(d/2-b)*(d/2-c));
 			printf("chu vi tam giac la %d\n", d);
 			printf("dien tich tam giac la %d\n", e);		
 		}
