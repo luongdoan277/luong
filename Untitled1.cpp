@@ -13,5 +13,9 @@ int main()
 			printf("chu vi tam giac la %d\n", d);
 			printf("dien tich tam giac la %d\n", e);		
 		}
+	else
+	{
+		printf("khong phai tam giac");	
+	}
 	return 0;
 }
